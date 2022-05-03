@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service</title>
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 529px)' href="servicemob.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 529px)' href="servicetab.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <ul id="mobnavul">
+            <li class="mobli"><a class="moba" href="/">Home</a></li>
+            <li class="mobli"><a class="moba"href="/">Models</a></li>
+            <li class="mobli"><a class="moba"href="/customerservice">Customer Service</a></li>
+            <li class="mobli"><a class="moba" href="/">Innovation</a></li> 
+        </ul>
+        <button id="optbtn" onclick="hide()" > </button>
+    </div>
+    <nav>
+        <a><img id="logo" src="https://logos-world.net/wp-content/uploads/2021/03/Audi-Logo.png"></a>
+        <ul>
+            <li><a href="/">Models</a></li>
+            <li><a href="/">Used Models</a></li>
+            <li><a href="/customerservice">Customer Service</a></li>
+            <li><a href="/">Innovation</a></li>
+        </ul>
+    </nav>
+    <div id="back">
+        <img id="background" src="https://www.audigurgaon.com/images/servicing1.jpg" >
+    </div>
+    <form action="/customerservice" method="post" id="info">
+        <p id="cust">Customer Service</p>
+        <p>Name</p><input class="INFO" type="text" name="name" placeholder="Enter your name">
+        <p>Birth Date</p><input class="INFO" type="date" name="date" >
+        <p>Phone Number</p><input class="INFO" type="number" name="phonenumber" placeholder="Contact Number">
+        <p>Email</p><input class="INFO" type="email" name="email" placeholder="E-mail I'd">
+        <p>City</p><input class="INFO" type="text" name="city" placeholder="City">
+        <p>Pincode</p><input class="INFO" type="number" name="pincode" placeholder="Pincode">
+        <p>State</p><input class="INFO" type="text" name="state" placeholder="State">
+        <p>Country</p><input class="INFO" type="text" name="country" placeholder="Country">
+        <button id="subbtn">Submit</button>
+    </form>
+    <script src="try.js"></script>
+</body>
+
+</html>
